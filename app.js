@@ -4,8 +4,8 @@ var mongoose = require('mongoose');
 var emp = require('./model/employee');
 
 
-var url = "mongodb://localhost/mydb1"
-//var url = "mongodb+srv://sonyrenjita:mangoHONET@cluster0-sbret.mongodb.net/dummyb?retryWrites=true&w=majority"
+//var url = "mongodb://localhost/mydb1"
+var url = "mongodb+srv://sonyrenjita:mangoHONET@cluster0-sbret.mongodb.net/dummyb?retryWrites=true&w=majority"
 
 const app =express();
 //var app = new express();
